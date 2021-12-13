@@ -14,3 +14,5 @@ steps:
          npm install sfdx-cli --global
   displayName: Install Salesforce CLI
 
+- bash: 
+    npm sfdx-cli --version
