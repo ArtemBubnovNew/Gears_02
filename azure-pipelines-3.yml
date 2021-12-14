@@ -13,6 +13,7 @@ steps:
 
 
 - bash: 
-    echo "this is the version os cli" + npm sfdx-cli --version
+    echo "this is the version os cli" 
+    npm sfdx-cli --version
 - bash:
     npm sfdx-cli auth:sfdxurl:store -f orgacc.key
