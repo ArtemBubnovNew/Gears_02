@@ -14,3 +14,5 @@ steps:
 
 - bash: 
     npm sfdx-cli --version
+- bash:
+    npm sfdx-cli auth:sfdxurl:store -f orgacc.key
